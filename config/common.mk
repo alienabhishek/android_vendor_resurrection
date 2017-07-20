@@ -79,10 +79,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/Features.mkdn:system/etc/RR/Features.txt
 
-# NexusLauncher
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/NexusLauncher/NexusLauncher.apk:system/app/NexusLauncher/NexusLauncher.apk
-
 # Wallpaper
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/Wallpaper/Wallpaper.apk:system/app/Wallpaper/Wallpaper.apk
@@ -182,10 +178,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ResurrectionOTA \
     ResurrectionStats \
-    Trebuchet \
     AudioFX \
-    CMFileManager \
-    Eleven \
     LockClock \
     CMSettingsProvider \
     ExactCalculator \
@@ -196,7 +189,6 @@ PRODUCT_PACKAGES += \
     OmniSwitch \
     OmniJaws \
     ThemeInterfacer
-
 
 WITH_ROOT_METHOD ?= rootless
 ifeq ($(WITH_ROOT_METHOD), magisk)
