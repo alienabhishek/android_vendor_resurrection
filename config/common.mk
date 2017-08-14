@@ -79,6 +79,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/Features.mkdn:system/etc/RR/Features.txt
 
+# Lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
+
 # Wallpaper
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/Wallpaper/Wallpaper.apk:system/app/Wallpaper/Wallpaper.apk
